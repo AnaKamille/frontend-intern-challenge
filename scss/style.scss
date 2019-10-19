@@ -18,6 +18,29 @@ main{
 h1, p{
     color: #eee;
 }
-
+#top {
+    @include f-j-center-a-center;
+    flex-direction: column;
+    h2 {
+        padding: 10px;
+        color: #AA1423;
+    }
+    #urls{
+        width: 700px;
+        height: 300px;
+        .shortUrl{
+            border-bottom: 1px solid #EEE;
+            padding: 10px;
+            @include f-j-center-a-center(space-between);
+            h3{
+                color: #AA1423;
+            }
+            h4{
+                color: #777;
+            }
+        }
+    }
+    
+}
 
 

@@ -25,4 +25,32 @@ h1, p {
   color: #eee;
 }
 
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#top h2 {
+  padding: 10px;
+  color: #AA1423;
+}
+#top #urls {
+  width: 700px;
+  height: 300px;
+}
+#top #urls .shortUrl {
+  border-bottom: 1px solid #EEE;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#top #urls .shortUrl h3 {
+  color: #AA1423;
+}
+#top #urls .shortUrl h4 {
+  color: #777;
+}
+
 /*# sourceMappingURL=style.css.map */

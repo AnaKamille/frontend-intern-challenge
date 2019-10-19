@@ -4,7 +4,7 @@ function writeUrls(){
     let text = "";
     for (let i = 0; i < 5; i++) {
         text += `
-        <div>
+        <div class="shortUrl">
             <h3>${urls[i].shortUrl}</h3>
             <h4>${urls[i].hits}</h4>
         </div>
