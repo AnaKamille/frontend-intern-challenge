@@ -1,0 +1,6 @@
+@mixin f-j-center-a-center($justify-c:center,$align-i:center) {
+    display: flex;
+    justify-content: $justify-c;
+    align-items: $align-i;
+    
+}

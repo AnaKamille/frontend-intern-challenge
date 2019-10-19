@@ -1,5 +1,20 @@
-#logo {
-  background: url();
-  background-color: red;
+* {
+  padding: 0;
+  margin: 0;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+main {
+  background: url(../Assets/background-home.jpg);
+  width: 100%;
+  height: 500px;
+}
+
 /*# sourceMappingURL=style.css.map */
