@@ -1,0 +1,9 @@
+@mixin f-j-center-a-center($justify-c:center,$align-i:center) {
+    display: flex;
+    justify-content: $justify-c;
+    align-items: $align-i;
+}
+@mixin f-d-column($direction-c:column) {
+    flex-direction: $direction-c;
+    
+}
