@@ -2,5 +2,8 @@
     display: flex;
     justify-content: $justify-c;
     align-items: $align-i;
+}
+@mixin f-d-column($direction-c:column) {
+    flex-direction: $direction-c;
     
 }
