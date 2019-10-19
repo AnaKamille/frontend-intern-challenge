@@ -20,6 +20,22 @@ main {
   align-items: center;
   flex-direction: column;
 }
+main #encurtar #ipt {
+  padding: 5px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ff5100;
+  color: #ff5100;
+}
+main #encurtar ::-webkit-input-placeholder {
+  /* Edge */
+  color: #ff5100;
+}
+main #encurtar button {
+  background-color: #ff5100;
+  boder: none;
+}
 
 h1, p {
   color: #eee;
