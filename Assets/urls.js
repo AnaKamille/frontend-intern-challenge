@@ -1,4 +1,4 @@
-[{
+const data =[{
     "id": "23094",
     "hits": 1003,
     "url": "http://globo.com",
