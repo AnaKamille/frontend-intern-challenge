@@ -1,3 +1,9 @@
+function somahits(){
+    let ipt = document.querySelector("#hits");
+    let total = data.reduce((total, valor) => total + valor.hits, 0);
+    ipt.setAttribute("value",total);
+}
+somahits();
 function writeUrls(){
     let lugar = document.querySelector("section #urls");
     let urls = data;
@@ -10,9 +16,9 @@ function writeUrls(){
             <h4>${urlsTop[i].hits}</h4>
         </div>
         `
-        console.log(urls[i])
     }
     lugar.innerHTML = text;
 
 }
 writeUrls();
+

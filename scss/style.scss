@@ -42,5 +42,31 @@ h1, p{
     }
     
 }
-
-
+#section-hits {
+    background: #EEE;
+    width: 98.2vw;
+    height: 250px;
+    @include f-j-center-a-center;
+        #div-hits{
+            @include f-j-center-a-center;
+            flex-direction: column;
+            h1{
+                font-size: 26px;
+                padding: 10px;
+                color: #AA1423;
+            }
+            input {
+                width: 150px;
+                outline: none;
+                padding: 10px;
+                border: 1px solid #EEF;
+                border-radius: 10px;
+                color: #AA1423;
+                font-size: 19px;
+            }
+            h4{
+                padding: 10px;
+                color: #777;
+            }
+        }
+    }

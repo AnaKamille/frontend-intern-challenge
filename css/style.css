@@ -53,4 +53,37 @@ h1, p {
   color: #777;
 }
 
+#section-hits {
+  background: #EEE;
+  width: 98.2vw;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-hits #div-hits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#section-hits #div-hits h1 {
+  font-size: 26px;
+  padding: 10px;
+  color: #AA1423;
+}
+#section-hits #div-hits input {
+  width: 150px;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #EEF;
+  border-radius: 10px;
+  color: #AA1423;
+  font-size: 19px;
+}
+#section-hits #div-hits h4 {
+  padding: 10px;
+  color: #777;
+}
+
 /*# sourceMappingURL=style.css.map */
